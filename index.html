@@ -1,172 +1,130 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
-    <link rel="icon" type="image/png" href="assets/img/favicon.png">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brandon's Portfolio</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
-    <script src="https://use.fontawesome.com/a0dccae3fa.js"></script>
-    <link rel="stylesheet" href="bootstrap.min.css" />
-    <link rel="stylesheet" href="animate.min.css" />
-    <link rel="stylesheet" href="ionicons.min.css" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <nav id="topNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#first">Brandon Walter</a>
-            </div>
-            <div class="navbar-collapse collapse" id="bs-navbar">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a class="page-scroll" href="#one">Intro</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#two">Projects</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#three">Languages &amp; Frameworks</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#last">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <header id="first">
-    <video autoplay="" loop="" class="fillWidth fadeIn wow collapse in" data-wow-delay="0.5s" id="video-background">
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Brandon's Portfolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!--        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">-->
+
+
+        <!--For Plugins external css-->
+        <link rel="stylesheet" href="assets/css/plugins.css" />
+        <link rel="stylesheet" href="assets/css/roboto-railway-webfont.css" />
+        <link rel="stylesheet" href="assets/css/linearicons-web-font.css" />
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+        <link rel="stylesheet" href="ionicons.min.css" />
+        <!--Theme custom css -->
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!--Theme Responsive css-->
+        <link rel="stylesheet" href="assets/css/responsive.css" />
+
+        <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+		<div class='preloader'><div class='loaded'>&nbsp;</div></div>
+
+
+        <nav id="main-nav">
+            <ul>
+                <li><a href="#home"><span>Home</span></a></li>
+                <li><a href="#about"><span>About Me</span></a></li>
+                <li><a href="#features"><span>Languages &amp; Frameworks</span></a></li>
+                <li><a href="#experience"><span>Experience</span></a></li>
+                <li><a href="#portfolio"><span>Portfolio</span></a></li>
+                
+            </ul>
+            <a href="#0" class="cd-close-menu">Close<span></span></a>
+        </nav>
+
+        <!--Home page style-->
+        <header id="home" class="home home-main-content">
+        <!-- <div class="fullscreen-bg"> -->
+        <!-- <video loop muted autoplay poster="img/videoframe.jpg" class="fillWidth fullscreen-bg__video">
+        <source src="main.mp4" type="video/mp4">
+        </video> -->
+        <video autoplay="" loop="" class="fillWidth fadeIn wow collapse in" data-wow-delay="0.5s" id="video-background">
             <source src="main.mp4" type="video/mp4">
         </video>
-     <img src="" style="display:none;">
-        <div class="header-content">
-            <div class="inner">
-                <h1 class="cursive">Brandon Walter</h1>
-                <hr>
-                <a href="https://github.com/bwal91/Brandon"><i class="fa fa-github" aria-hidden="true" style="font-size: 100px; color: purple;"></i></a>
-                <a href="https://www.linkedin.com/in/brandon-walter"><i class="fa fa-linkedin-square" aria-hidden="true" style="color: #0084B8; font-size: 100px; margin-left: 2%;"></i></a>
-            
-            </div>
-        </div>
-    
-    </header>
-    <section class="bg-primary" id="one">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 text-center">
-                    <h2 class="margin-top-0 text-primary">Intro</h2>
-                    <br>
-                    <p class="text-faded">
-                        Self-driven Software & Web Developer with great communication skills and ability to thrive in a fast-paced work environment. Highly analytical thinker with demonstrated talent for streamlining complex work processes. Looking to work with a fun and creative developer team to solve real-world problems and transform good ideas into great products. 
-                        <br>
-                        <br>
-                        <span style="color: #9c27b0;">Languages:</span> JavaScript, Python, Ruby, MEAN, HTML, CSS, Bootstrap
-                        <span style="color: #9c27b0;">Framework:</span> ReactJS, Rails, AngularJS, Express.js, Django, Flask, MVC
-                        <span style="color: #9c27b0;">Database:</span> MySQL, SQLite, PostgreSQL, MongoDB
-                        <br>
-                        <span style="color: #9c27b0;">Others:</span> GitHub, jQuery, node.js, Capybara, RSpec
-                    </p>
-                    <br>
-                    <p>Feel free to Download a copy of my Resume:</p>
-                    <a href="resume.docx" download="brandon-walter-resume" class="btn btn-default" style="color: #9c27b0; font-weight: bold;">Resume</a>
+        <!-- </div> -->
+            <div class="overlay sections">
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="div-menu">
+                            <header class="cd-header">
+                                <a class="cd-menu-trigger" href="#main-nav"><span></span></a>
+                            </header>
+                        </div>
+
+
+                        <div class="home-wrapper">
+                            <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+                                <div class="home-content">
+                                    <h1>Brandon Walter</h1>
+                                    <hr>
+                                    <a href="https://github.com/bwal91/Brandon"><i class="fa fa-github" aria-hidden="true" style="font-size: 100px; color: purple;"></i></a>
+                                    <a href="https://www.linkedin.com/in/brandon-walter"><i class="fa fa-linkedin-square" aria-hidden="true" style="color: #0084B8; font-size: 100px; margin-left: 2%;"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section id="two" class="no-padding">
-        <div class="container-fluid">
-        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 text-center" style="margin-top: 3%; margin-bottom: 2%;">
-            <h2 class="margin-top-0 text-primary">Projects <br><a href="https://github.com/bwal91/Brandon">(Many more on GitHub)</a></h2>
-        </div>
-            <div class="row no-gutter">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="./assets/owcnew.png">
-                        <img src="./assets/owcnew.png" class="img-responsive" alt="Image 1">
-                        <div class="gallery-box-caption">
-                            <div class="gallery-box-content">
-                                <div>
-                                    <i class="icon-lg ion-ios-search"></i>
-                                </div>
+        </header>
+
+        <!-- Sections -->
+        <section id="about" class="sections3">
+            <div class="container">
+                <!-- Example row of columns -->
+                <div class="row">
+                    <div class="about-wrapper">
+
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="about-photo">
+                                <img src="./assets/images/lessmg.jpg" alt="About Photo" />
                             </div>
                         </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="./assets/owccharity.png">
-                        <img src="./assets/owccharity.png" class="img-responsive" alt="Image 4">
-                        <div class="gallery-box-caption">
-                            <div class="gallery-box-content">
-                                <div>
-                                    <i class="icon-lg ion-ios-search"></i>
-                                </div>
+
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="about-content text-left">
+                                <h4>Brandon Walter - Software &amp; Web Developer in Redmond, Washington</h4>
+                                <p>Self-driven Software &amp; Web Developer with great communication skills and ability to thrive in a fast-paced work environment. Highly analytical thinker with demonstrated talent for streamlining complex work processes. Looking to work with a fun and creative developer team to solve real-world problems and transform good ideas into great products.</p>
+                                <a href="#" class="btn btn-default">Hire Me!</a>
                             </div>
+                            <br>
+                            <br>
+                            <br>
                         </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="./assets/owcadmin.png">
-                        <img src="./assets/owcadmin.png" class="img-responsive" alt="Image 2">
-                        <div class="gallery-box-caption">
-                            <div class="gallery-box-content">
-                                <div>
-                                    <i class="icon-lg ion-ios-search"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="./assets/aptwalker.png">
-                        <img src="./assets/aptwalker.png" class="img-responsive" alt="Image 2">
-                        <div class="gallery-box-caption">
-                            <div class="gallery-box-content">
-                                <div>
-                                    <i class="icon-lg ion-ios-search"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <br>
-                <div class="col-lg-4 col-sm-6" style="margin-top: 3%;">
-                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="./assets/thegame.png">
-                        <img src="./assets/thegame.png" class="img-responsive" alt="Image 3">
-                        <div class="gallery-box-caption">
-                            <div class="gallery-box-content">
-                                <div>
-                                    <i class="icon-lg ion-ios-search"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-        
+
+                    </div>
+                </div>	
+            </div> <!-- /container -->       
+        </section>
+        <br>
+
+        <!-- Sections -->
+        <section id="features" class="sections lightbg">
+
+            <div class="heading-content text-center">
+                <h3>Proficient Languages &amp; Frameworks</h1>
             </div>
-        </div>
-    </section>
-    <section id="three" class="no-padding">
-        <div class="container text-center">
-            <div class="call-to-action" style="margin-top: 5%;">
-                <h2 class="text-primary">Proficient Languages &amp; Frameworks</h2>
-            </div>
-            <br>
-            <hr/>
-            <br>
-            <div class="row">
+
+            <div class="container text-center">
+                <!-- Example row of columns -->
+                <div class="row">
                 <div class="col-lg-10 col-lg-offset-1">
                     <div class="row">
                         <div class="col-sm-3 col-xs-6 text-center">
@@ -222,45 +180,200 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section id="last" style="margin-top: 10%;">
-        <div class="container" style="display: inline-block; ">
-            <div class="row">
-               <div class="row">
-                <div class="col-md-8  text-center" style="display: inline-block; margin-left: 20%;">
-                    <h2 class="margin-top-0 wow fadeIn">Get in Touch</h2>
-                    <hr class="primary">
-                    <p>Contact me on LinkedIn</p>
+            </div> <!-- /container -->       
+        </section>
+
+        <!-- Sections -->
+        <section id="experience" class="experience">
+            <div class="overlay sections">
+                <div class="container">
+                    <div class="row">
+                        <div class="experience-wrapper">
+
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="experience-content">
+
+                                    <h4>Work Experience</h4>
+
+                                    <div class="content-details content-border">
+                                        <h5>Recursive Thinking</h5>
+                                        <h6>2016 - Present</h6>
+                                        <p>Mentor future Software &amp; Web Developers/Engineers and assist with good coding practices, debugging, and learning new technologies.</p>
+                                    </div>
+
+                                    <div class="content-details">
+                                        <!-- <h5>Download Full Resume</h5> -->
+                                        <a href="resume.docx" download="brandon-walter-resume" class="btn btn-default">Download Full Resume</a>
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="experience-content">
+
+                                    <h4>Education</h4>
+
+                                    <div class="content-details content-border">
+                                        <h5>Coding Dojo</h5>
+                                        <h6>DEC 2016 - APR 2017</h6>
+                                        <p>Web &amp; Software Development Student</p>
+                                    </div>
+
+                                    <div class="content-details">
+                                        <h5>American Military University</h5>
+                                        <h6>JAN 2014 - DEC 2016</h6>
+                                        <p>Majored in Cyber Secuirty</p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>	
+                    </div>
                 </div>
-                <div class="col-xs-12 col-sm-3 text-center" style="display: inline-block; margin-left: 41%; vertical-align: top;">
-                    <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="brandon-walter"><a class="LI-simple-link" href='https://www.linkedin.com/in/brandon-walter?trk=profile-badge'>Brandon Walter</a></div>
-                    <br>
-                    <p>Email Me Directly at <a href="mailto:brandon@brandon-walter.com" target="_top">Brandon@brandon-walter.com</a>
-                    
+            </div>       
+        </section>
+
+        <!-- Sections -->
+        <section id="portfolio" class="sections">
+            <div class="container">
+
+                <div class="heading-content text-center">
+                    <h3>My Latest Works</h3>
+                </div>
+
+                <!-- Example row of columns -->
+                <div class="row">
+                    <div class="portfolio-wrapper">
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="portfolio-item">
+                                <a href="./assets/owcnew.png" class="portfolio-img"><img src="./assets/owcnew.png" alt="" /></a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="portfolio-item">
+                                <a href="./assets/owccharity.png" class="portfolio-img"><img src="./assets/owccharity.png" alt="" /></a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="portfolio-item">
+                                <a href="./assets/owccharity.png" class="portfolio-img"><img src="./assets/owccharity.png" alt="" /></a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="portfolio-item">
+                                <a href="./assets/aptwalker.png" class="portfolio-img"><img src="./assets/aptwalker.png" alt="" /></a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="portfolio-wrapper2">
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="portfolio-item width-img">
+                                <a href="./assets/thegame.png" class="portfolio-img"><img src="./assets/thegame.png" alt="" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div> <!-- /container -->       
+        </section>
+
+        <!-- Sections -->
+        <section id="contact" class="contact">
+            <div class="overlay sections">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-wrapper">
+
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="contact-area">
+
+                                    <h4>Leave a message</h4>
+                                    <form>
+
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Name*">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" placeholder="Email*">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Subject*">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <textarea rows="9" class="form-control" placeholder="Message"></textarea>
+                                        </div>
+
+
+                                        <a type="submit" class="btn btn-default">Hire Me !</a>
+
+                                    </form>
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="contact-details-area">
+
+                                    <div class="contact-details">
+                                        <h4>Contact me on LinkedIn</h4>
+                                        <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="brandon-walter"><a class="LI-simple-link" href='https://www.linkedin.com/in/brandon-walter?trk=profile-badge'>Brandon Walter</a></div>
+                                    </div>
+
+                                    <div class="contact-details">
+                                        <h4>Email me Direct</h4>
+                                        <a href="mailto:brandon@brandon-walter.com" target="_top">Brandon@brandon-walter.com</a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>	
+                    </div>
+                </div>
+            </div>       
+        </section>
+
+
+        <!--Footer-->
+        <footer id="footer" class="footer">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+                        <div class="main-footer">
+
+                            <div class="social">
+                                <a href="https://www.linkedin.com/in/brandon-walter"><i class="fa fa-linkedin"></i></a>
+                                <a href="https://github.com/bwal91"><i class="fa fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <div id="galleryModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <div class="modal-body">
-            <img src="" id="galleryImage" class="img-responsive" />
-            <p>
-                <br/>
-                <button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true">Close <i class="ion-android-close"></i></button>
-            </p>
-          </div>
-        </div>
-        </div>
-    </div>
-    <!--scripts loaded here -->
-    <script src="jquery.min.js"></script>
-    <script src="bootstrap.min.js"></script>
-    <script src="jquery.easing.min.js"></script>
-    <script src="wow.js"></script>
-    <script src="scripts.js"></script>
-    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-  </body>
+
+        </footer>
+        <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
+        <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="assets/js/vendor/bootstrap.min.js"></script>
+
+        <script src="assets/js/plugins.js"></script>
+        <script src="assets/js/jquery.magnific-popup.js"></script>
+        <script src="assets/js/modernizr.js"></script>
+
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
